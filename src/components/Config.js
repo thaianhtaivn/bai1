@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
 import {Button, ButtonGroup, Navbar, Image, Container, Row, Col} from 'react-bootstrap';
+
 function Config(props) {
   if(!props.isConfig){
     return null;
